@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x8f83990" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x2e6da0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x8f83990" />
-  <item nodeId="node-0x8f83990">
+  <activeNode nodeId="node-0x2e6da0" />
+  <item nodeId="node-0x2e6da0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -21,10 +21,10 @@ recesitation chamber
     <changed>NO</changed>
     <temporary score="29">NO</temporary>
     <children>
-      <child nodeId="node-0x5605f0" />
+      <child nodeId="node-0x2e6d30" />
     </children>
   </item>
-  <item nodeId="node-0x5605f0">
+  <item nodeId="node-0x2e6d30">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 corridor
@@ -34,10 +34,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x50ac190" />
+      <child nodeId="node-0x2e7330" />
     </children>
   </item>
-  <item nodeId="node-0x50ac190">
+  <item nodeId="node-0x2e7330">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 recesitation chamber
@@ -47,10 +47,10 @@ recesitation chamber
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x508f90" />
+      <child nodeId="node-0x2268e0" />
     </children>
   </item>
-  <item nodeId="node-0x508f90">
+  <item nodeId="node-0x2268e0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 supply closet
@@ -60,10 +60,10 @@ supply closet
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x9706710" />
+      <child nodeId="node-0x226890" />
     </children>
   </item>
-  <item nodeId="node-0x9706710">
+  <item nodeId="node-0x226890">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 recesitation chamber
@@ -73,10 +73,10 @@ recesitation chamber
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0xa71d3a0" />
+      <child nodeId="node-0x226840" />
     </children>
   </item>
-  <item nodeId="node-0xa71d3a0">
+  <item nodeId="node-0x226840">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 corridor
@@ -86,10 +86,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x5ab640" />
+      <child nodeId="node-0x2267f0" />
     </children>
   </item>
-  <item nodeId="node-0x5ab640">
+  <item nodeId="node-0x2267f0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 cockpit
@@ -99,10 +99,10 @@ cockpit
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x50194e0" />
+      <child nodeId="node-0x226720" />
     </children>
   </item>
-  <item nodeId="node-0x50194e0">
+  <item nodeId="node-0x226720">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 corridor
@@ -112,10 +112,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x50a7350" />
+      <child nodeId="node-0x2266d0" />
     </children>
   </item>
-  <item nodeId="node-0x50a7350">
+  <item nodeId="node-0x2266d0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -124,10 +124,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x8f62fc0" />
+      <child nodeId="node-0x226680" />
     </children>
   </item>
-  <item nodeId="node-0x8f62fc0">
+  <item nodeId="node-0x226680">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -136,10 +136,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x503d4c0" />
+      <child nodeId="node-0x226630" />
     </children>
   </item>
-  <item nodeId="node-0x503d4c0">
+  <item nodeId="node-0x226630">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -148,10 +148,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x50aede0" />
+      <child nodeId="node-0x2265c0" />
     </children>
   </item>
-  <item nodeId="node-0x50aede0">
+  <item nodeId="node-0x2265c0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -160,10 +160,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x50cc170" />
+      <child nodeId="node-0x226490" />
     </children>
   </item>
-  <item nodeId="node-0x50cc170">
+  <item nodeId="node-0x226490">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -172,10 +172,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x509efc0" />
+      <child nodeId="node-0x226440" />
     </children>
   </item>
-  <item nodeId="node-0x509efc0">
+  <item nodeId="node-0x226440">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -184,10 +184,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x574ac30" />
+      <child nodeId="node-0x2263f0" />
     </children>
   </item>
-  <item nodeId="node-0x574ac30">
+  <item nodeId="node-0x2263f0">
     <command xml:space="preserve">ew</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -196,10 +196,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x574fd10" />
+      <child nodeId="node-0x2263a0" />
     </children>
   </item>
-  <item nodeId="node-0x574fd10">
+  <item nodeId="node-0x2263a0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -208,10 +208,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0xa7f6e50" />
+      <child nodeId="node-0x226350" />
     </children>
   </item>
-  <item nodeId="node-0xa7f6e50">
+  <item nodeId="node-0x226350">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -220,10 +220,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x504ea00" />
+      <child nodeId="node-0x2262e0" />
     </children>
   </item>
-  <item nodeId="node-0x504ea00">
+  <item nodeId="node-0x2262e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -232,10 +232,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x57cc50" />
+      <child nodeId="node-0x226270" />
     </children>
   </item>
-  <item nodeId="node-0x57cc50">
+  <item nodeId="node-0x226270">
     <command xml:space="preserve">ew</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -244,10 +244,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x5cd390" />
+      <child nodeId="node-0x226200" />
     </children>
   </item>
-  <item nodeId="node-0x5cd390">
+  <item nodeId="node-0x226200">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -256,10 +256,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0xda3bba0" />
+      <child nodeId="node-0x226540" />
     </children>
   </item>
-  <item nodeId="node-0xda3bba0">
+  <item nodeId="node-0x226540">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 recesitation chamber
@@ -269,10 +269,10 @@ recesitation chamber
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x5004f90" />
+      <child nodeId="node-0x2264e0" />
     </children>
   </item>
-  <item nodeId="node-0x5004f90">
+  <item nodeId="node-0x2264e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 airlock
@@ -282,10 +282,10 @@ airlock
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x5009180" />
+      <child nodeId="node-0x225ff0" />
     </children>
   </item>
-  <item nodeId="node-0x5009180">
+  <item nodeId="node-0x225ff0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 deep space
@@ -295,10 +295,10 @@ deep space
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x9743520" />
+      <child nodeId="node-0x225f80" />
     </children>
   </item>
-  <item nodeId="node-0x9743520">
+  <item nodeId="node-0x225f80">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -307,10 +307,10 @@ deep space
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x505c580" />
+      <child nodeId="node-0x225f10" />
     </children>
   </item>
-  <item nodeId="node-0x505c580">
+  <item nodeId="node-0x225f10">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -319,10 +319,10 @@ deep space
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x5009bb0" />
+      <child nodeId="node-0x225ea0" />
     </children>
   </item>
-  <item nodeId="node-0x5009bb0">
+  <item nodeId="node-0x225ea0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -331,10 +331,10 @@ deep space
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x50adc60" />
+      <child nodeId="node-0x225e30" />
     </children>
   </item>
-  <item nodeId="node-0x50adc60">
+  <item nodeId="node-0x225e30">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 airlock
@@ -344,10 +344,10 @@ airlock
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x503b030" />
+      <child nodeId="node-0x225dc0" />
     </children>
   </item>
-  <item nodeId="node-0x503b030">
+  <item nodeId="node-0x225dc0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 recesitation chamber
@@ -357,10 +357,10 @@ recesitation chamber
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x516e90" />
+      <child nodeId="node-0x225d50" />
     </children>
   </item>
-  <item nodeId="node-0x516e90">
+  <item nodeId="node-0x225d50">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 supply closet
