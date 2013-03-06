@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x2e6da0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x5983d0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x2e6da0" />
-  <item nodeId="node-0x2e6da0">
+  <activeNode nodeId="node-0x5e4640" />
+  <item nodeId="node-0x5983d0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -12,19 +12,631 @@ pppsssshhh…  The protective tinted glass of the pod door lifts off of your bod
 
 TroubleOnSpaceShip1337
 An Interactive Fiction by Rafe McAtee
-Release 1 / Serial number 130226 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 130304 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 recesitation chamber
+In zero gravity, there is no decernable floor or cealing. You are in a cubicaly shaped room, all six of the walls are clean and bright white.  centered on each wall is a square light flush with the walls.  There is a computer and a digital clock built into one of the walls.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="29">NO</temporary>
+    <temporary score="99">NO</temporary>
     <children>
-      <child nodeId="node-0x2e6d30" />
+      <child nodeId="node-0x5eaa60" />
+      <child nodeId="node-0x509e10" />
+      <child nodeId="node-0x2e3d30" />
+      <child nodeId="node-0x2a1440" />
+      <child nodeId="node-0x5e5250" />
+      <child nodeId="node-0x5d0ed0" />
+      <child nodeId="node-0x598640" />
     </children>
   </item>
-  <item nodeId="node-0x2e6d30">
+  <item nodeId="node-0x598640">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 12:50 pm, November 1, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="99">YES</temporary>
+    <children>
+      <child nodeId="node-0x598490" />
+      <child nodeId="node-0x598440" />
+      <child nodeId="node-0xe6cef60" />
+      <child nodeId="node-0x5e4a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4a30">
+    <command xml:space="preserve">take rock</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e51e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e51e0">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 9:02 am November 1st 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+  </item>
+  <item nodeId="node-0xe6cef60">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0xe691f40" />
+    </children>
+  </item>
+  <item nodeId="node-0xe691f40">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x132328c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x132328c0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x59af50" />
+    </children>
+  </item>
+  <item nodeId="node-0x59af50">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x2bb140" />
+    </children>
+  </item>
+  <item nodeId="node-0x2bb140">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x5060f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x5060f70">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0xe671810" />
+    </children>
+  </item>
+  <item nodeId="node-0xe671810">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 12:57 pm, November 1, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x50d750" />
+    </children>
+  </item>
+  <item nodeId="node-0x50d750">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x58e8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x58e8f0">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 12:59 pm, November 1, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+  </item>
+  <item nodeId="node-0x598440">
+    <command xml:space="preserve">x digital clock</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+  <item nodeId="node-0x598490">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 12:51 pm, November 1, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="99">YES</temporary>
+    <children>
+      <child nodeId="node-0x5988b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5988b0">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 12:52 pm, November 1, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="99">YES</temporary>
+    <children>
+      <child nodeId="node-0x598900" />
+    </children>
+  </item>
+  <item nodeId="node-0x598900">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 12:53 pm, November 1, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="99">YES</temporary>
+    <children>
+      <child nodeId="node-0x598970" />
+      <child nodeId="node-0x5dc840" />
+    </children>
+  </item>
+  <item nodeId="node-0x5dc840">
+    <command xml:space="preserve">xcomputer</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x50710b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x50710b0">
+    <command xml:space="preserve">x computer</command>
+    <result xml:space="preserve">This is not much of a computer, Just one button and a small 4x6 monitor.  It is built into the wall.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x50bdeb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x50bdeb0">
+    <command xml:space="preserve">push button</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+  </item>
+  <item nodeId="node-0x598970">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 12:54 pm, November 1, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="99">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4390" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4390">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 12:55 pm, November 1, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="99">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e43e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e43e0">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 12:56 pm, November 1, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="99">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4430" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4430">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 12:57 pm, November 1, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="99">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4c90" />
+      <child nodeId="node-0x5e44a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e44a0">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 12:58 pm, November 1, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="99">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4510" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4510">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 12:59 pm, November 1, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="99">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4640" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4640">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 1:00 pm, November 2, 2525.
+
+The ship hits a floating rock.
+
+
+
+    *** You have died ***
+
+
+In that game you scored 0 out of a possible 1337, in 11 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4330" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4330">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 1:01 pm, November 2, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="66">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e46b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e46b0">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 1:02 pm, November 2, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="66">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4720" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4720">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 1:03 pm, November 2, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="66">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4790" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4790">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 1:04 pm, November 2, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="66">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4800" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4800">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 1:05 pm, November 2, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="65">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4870" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4870">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 1:06 pm, November 2, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e48e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e48e0">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 1:07 pm, November 2, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4580" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4580">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 1:18 am November 2st 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e45d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e45d0">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 1:19 am November 2st 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4ad0">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 1:20 am November 2st 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4b40" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4b40">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 1:21 am November 2st 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4bb0">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 1:22 am November 2st 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4c20" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4c20">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 1:23 am November 2st 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+  </item>
+  <item nodeId="node-0x5e4c90">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4d00" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4d00">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 12:58 pm November 1st 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4d70" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4d70">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 12:59 pm November 1st 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4de0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4de0">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 1:00 pm November 1st 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4e50" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4e50">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4ec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4ec0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4f30" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4f30">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4950" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4950">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e49c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e49c0">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 1:01 pm November 1st 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+  </item>
+  <item nodeId="node-0x5d0ed0">
+    <command xml:space="preserve">push button</command>
+    <result xml:space="preserve">The monitor starts up.  It displayes a map of the ship.  A computerized voice starts to talk.  Hello adventurer, I am space ship 1337.  I have temporarily awoken you from suspended unconciousness because of external dammage to my starboard tragectory adjustation thruster.  -Estimating time before catostrophic consequences.-  Potential danger detected.  Collision will occure at 4:35 am, November 3, 2525.  The current time is 12:50 pm, November 1, 2525.  Opening accesible rooms.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0xe99fe90" />
+    </children>
+  </item>
+  <item nodeId="node-0xe99fe90">
+    <command xml:space="preserve">x monitor</command>
+    <result xml:space="preserve">The screen displayes a map of the ship titled &quot;Starboad Wing&quot;.  According to the map, you are in the recesitation chamber.  There is a supply closet to the east, a corridor to the north, an airlock to the west of the corridor, and an off limits room to the north of the corridor.  The rest of the ship is greyed out and unlabeled.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0xe683090" />
+    </children>
+  </item>
+  <item nodeId="node-0xe683090">
+    <command xml:space="preserve">push button</command>
+    <result xml:space="preserve">Nothing happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+  </item>
+  <item nodeId="node-0x5e5250">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 corridor
@@ -34,10 +646,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x2e7330" />
+      <child nodeId="node-0x5e52c0" />
     </children>
   </item>
-  <item nodeId="node-0x2e7330">
+  <item nodeId="node-0x5e52c0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 recesitation chamber
@@ -47,10 +659,10 @@ recesitation chamber
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x2268e0" />
+      <child nodeId="node-0x5e5330" />
     </children>
   </item>
-  <item nodeId="node-0x2268e0">
+  <item nodeId="node-0x5e5330">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 supply closet
@@ -60,10 +672,10 @@ supply closet
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x226890" />
+      <child nodeId="node-0x5e53a0" />
     </children>
   </item>
-  <item nodeId="node-0x226890">
+  <item nodeId="node-0x5e53a0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 recesitation chamber
@@ -73,10 +685,10 @@ recesitation chamber
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x226840" />
+      <child nodeId="node-0x5e5410" />
     </children>
   </item>
-  <item nodeId="node-0x226840">
+  <item nodeId="node-0x5e5410">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 corridor
@@ -86,10 +698,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x2267f0" />
+      <child nodeId="node-0x5e5480" />
     </children>
   </item>
-  <item nodeId="node-0x2267f0">
+  <item nodeId="node-0x5e5480">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 cockpit
@@ -99,10 +711,10 @@ cockpit
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x226720" />
+      <child nodeId="node-0x5e54f0" />
     </children>
   </item>
-  <item nodeId="node-0x226720">
+  <item nodeId="node-0x5e54f0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 corridor
@@ -112,10 +724,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x2266d0" />
+      <child nodeId="node-0x5e5560" />
     </children>
   </item>
-  <item nodeId="node-0x2266d0">
+  <item nodeId="node-0x5e5560">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -124,10 +736,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x226680" />
+      <child nodeId="node-0x5e55d0" />
     </children>
   </item>
-  <item nodeId="node-0x226680">
+  <item nodeId="node-0x5e55d0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -136,10 +748,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x226630" />
+      <child nodeId="node-0x5e5640" />
     </children>
   </item>
-  <item nodeId="node-0x226630">
+  <item nodeId="node-0x5e5640">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -148,10 +760,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x2265c0" />
+      <child nodeId="node-0x5e56b0" />
     </children>
   </item>
-  <item nodeId="node-0x2265c0">
+  <item nodeId="node-0x5e56b0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -160,10 +772,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x226490" />
+      <child nodeId="node-0x5e5720" />
     </children>
   </item>
-  <item nodeId="node-0x226490">
+  <item nodeId="node-0x5e5720">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -172,10 +784,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x226440" />
+      <child nodeId="node-0x5e5790" />
     </children>
   </item>
-  <item nodeId="node-0x226440">
+  <item nodeId="node-0x5e5790">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -184,10 +796,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x2263f0" />
+      <child nodeId="node-0x5e5800" />
     </children>
   </item>
-  <item nodeId="node-0x2263f0">
+  <item nodeId="node-0x5e5800">
     <command xml:space="preserve">ew</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -196,10 +808,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x2263a0" />
+      <child nodeId="node-0x5e5870" />
     </children>
   </item>
-  <item nodeId="node-0x2263a0">
+  <item nodeId="node-0x5e5870">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -208,10 +820,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x226350" />
+      <child nodeId="node-0x5e58e0" />
     </children>
   </item>
-  <item nodeId="node-0x226350">
+  <item nodeId="node-0x5e58e0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -220,10 +832,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x2262e0" />
+      <child nodeId="node-0x5e4fa0" />
     </children>
   </item>
-  <item nodeId="node-0x2262e0">
+  <item nodeId="node-0x5e4fa0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -232,10 +844,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x226270" />
+      <child nodeId="node-0x5e5010" />
     </children>
   </item>
-  <item nodeId="node-0x226270">
+  <item nodeId="node-0x5e5010">
     <command xml:space="preserve">ew</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -244,10 +856,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x226200" />
+      <child nodeId="node-0x5e5080" />
     </children>
   </item>
-  <item nodeId="node-0x226200">
+  <item nodeId="node-0x5e5080">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -256,10 +868,10 @@ corridor
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x226540" />
+      <child nodeId="node-0x5e50f0" />
     </children>
   </item>
-  <item nodeId="node-0x226540">
+  <item nodeId="node-0x5e50f0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 recesitation chamber
@@ -269,10 +881,10 @@ recesitation chamber
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x2264e0" />
+      <child nodeId="node-0x5e5160" />
     </children>
   </item>
-  <item nodeId="node-0x2264e0">
+  <item nodeId="node-0x5e5160">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 airlock
@@ -282,10 +894,10 @@ airlock
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x225ff0" />
+      <child nodeId="node-0x5e5950" />
     </children>
   </item>
-  <item nodeId="node-0x225ff0">
+  <item nodeId="node-0x5e5950">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 deep space
@@ -295,10 +907,10 @@ deep space
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x225f80" />
+      <child nodeId="node-0x5e59c0" />
     </children>
   </item>
-  <item nodeId="node-0x225f80">
+  <item nodeId="node-0x5e59c0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -307,10 +919,10 @@ deep space
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x225f10" />
+      <child nodeId="node-0x5e5a30" />
     </children>
   </item>
-  <item nodeId="node-0x225f10">
+  <item nodeId="node-0x5e5a30">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -319,10 +931,10 @@ deep space
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x225ea0" />
+      <child nodeId="node-0x5e5aa0" />
     </children>
   </item>
-  <item nodeId="node-0x225ea0">
+  <item nodeId="node-0x5e5aa0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -331,10 +943,10 @@ deep space
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x225e30" />
+      <child nodeId="node-0x5e5b10" />
     </children>
   </item>
-  <item nodeId="node-0x225e30">
+  <item nodeId="node-0x5e5b10">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 airlock
@@ -344,10 +956,10 @@ airlock
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x225dc0" />
+      <child nodeId="node-0x5e5b80" />
     </children>
   </item>
-  <item nodeId="node-0x225dc0">
+  <item nodeId="node-0x5e5b80">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 recesitation chamber
@@ -357,10 +969,10 @@ recesitation chamber
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x225d50" />
+      <child nodeId="node-0x5e5bf0" />
     </children>
   </item>
-  <item nodeId="node-0x225d50">
+  <item nodeId="node-0x5e5bf0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 supply closet
@@ -369,5 +981,364 @@ supply closet
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
+  </item>
+  <item nodeId="node-0x2a1440">
+    <command xml:space="preserve">x button</command>
+    <result xml:space="preserve">This is a solitary button.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0xe677c10" />
+    </children>
+  </item>
+  <item nodeId="node-0xe677c10">
+    <command xml:space="preserve">push button</command>
+    <result xml:space="preserve">The monitor starts up.  It displayes a map of the ship
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+  </item>
+  <item nodeId="node-0x2e3d30">
+    <command xml:space="preserve">x monitor</command>
+    <result xml:space="preserve">This is a small 6x4 screen.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0x5618e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5618e0">
+    <command xml:space="preserve">x screen</command>
+    <result xml:space="preserve">This is a small 6x4 screen.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0x500d950" />
+    </children>
+  </item>
+  <item nodeId="node-0x500d950">
+    <command xml:space="preserve">push button</command>
+    <result xml:space="preserve">The monitor starts up.  It displayes a map of the ship.  A computerized voice starts to talk.  Hello adventurer, I am space ship 1337.  I have temporarily awoken you from suspended unconciousness because of external dammage to my starboard tragectory adjustation thruster.  -Estimating time before catostrophic consequences.-  Potential danger detected.  Collision will occure at 4:35 am, November 3, 2525.  The current time is 12:52 pm, November 1, 2525.  Opening accesible rooms.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0x5055350" />
+    </children>
+  </item>
+  <item nodeId="node-0x5055350">
+    <command xml:space="preserve">x screen</command>
+    <result xml:space="preserve">This is a small 6x4 screen.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0x5010800" />
+    </children>
+  </item>
+  <item nodeId="node-0x5010800">
+    <command xml:space="preserve">x monitor</command>
+    <result xml:space="preserve">This is a small 6x4 screen.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0xe9451e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe9451e0">
+    <command xml:space="preserve">push button</command>
+    <result xml:space="preserve">Nothing happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+  </item>
+  <item nodeId="node-0x509e10">
+    <command xml:space="preserve">press button</command>
+    <result xml:space="preserve">The monitor starts up.  It displayes a map of the ship.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+  </item>
+  <item nodeId="node-0x5eaa60">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0x1329bcd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1329bcd0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0xe6aee10" />
+    </children>
+  </item>
+  <item nodeId="node-0xe6aee10">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0xe644ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe644ad0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0xe662de0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe662de0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0x50cfe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x50cfe0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0xe6c1600" />
+    </children>
+  </item>
+  <item nodeId="node-0xe6c1600">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0x5aa2c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5aa2c0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0x2259e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2259e0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0x593610" />
+    </children>
+  </item>
+  <item nodeId="node-0x593610">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0x5b03d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5b03d0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0xe65e200" />
+    </children>
+  </item>
+  <item nodeId="node-0xe65e200">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0x57c570" />
+    </children>
+  </item>
+  <item nodeId="node-0x57c570">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0x5d0e70" />
+    </children>
+  </item>
+  <item nodeId="node-0x5d0e70">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0x13272a70" />
+    </children>
+  </item>
+  <item nodeId="node-0x13272a70">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0xe9410a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe9410a0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0x508ca90" />
+    </children>
+  </item>
+  <item nodeId="node-0x508ca90">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0xe679760" />
+    </children>
+  </item>
+  <item nodeId="node-0xe679760">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0xe69dbf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe69dbf0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0xe63b7f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe63b7f0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0x13238c40" />
+    </children>
+  </item>
+  <item nodeId="node-0x13238c40">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0xe67c4d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe67c4d0">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 1:11 pm, November 2, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="87">YES</temporary>
   </item>
 </Skein>
