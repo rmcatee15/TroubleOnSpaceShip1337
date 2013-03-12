@@ -5,6 +5,14 @@ The maximum score is 1337.
 The time of day is 12:50 PM.
 The description of the player is "You are a thin human in his late teens."
 Rule for deciding whether all includes something: it does not.
+When play begins: 
+    now left hand status line is "Exits: [exit list]"; 
+    now right hand status line is "[location]".
+To say exit list: 
+	let place be location; 
+	repeat with way running through directions: 
+		let place be the room way from the location; 
+		if place is a room, say " [way]".  [exits in heading from get that cat.]
 
 The recesitation chamber is a room. "In zero gravity, there is no decernable floor or cealing. You are in a cubicaly shaped room, all six of the walls are clean and bright white.  centered on each wall is a square light flush with the walls.  There is a computer and a digital clock built into one of the walls."
 The wall is scenery.
@@ -18,14 +26,13 @@ Understand "lights" as the light.
 Instead of breaking the square light, say "That is not an apropriate thing to do."
 The digital clock is scenery.
 The digital clock is in the recesitation chamber.
-The description of the digital clock is "It is [time of day], November [x], 2525."
+The description of the digital clock is "It is [time of day], November [x], 2525."[clock to check date]
 The computer is scenery.
 The computer is in the recesitation chamber.
 The description of the computer is "This is not much of a computer, Just one button and a small 4x6 monitor.  It is built into the wall."
 The monitor is scenery.
 The monitor is in the recesitation chamber.
 The description of the monitor is "This is a small 6x4 screen."
-Understand "screen" as monitor.
 The button is scenery.
 The button is in the recesitation chamber.
 The description of the button is "This is a solitary button."
@@ -42,7 +49,7 @@ Instead of pushing the button, say "Nothing happens."
 
 Instead of entering the sleeping pod:
 	say "You climb in and drift off to sleep.";
-	end the game in victory.
+	end the game in victory.[how to win.  Sleeping pod is not there until ship is fixed]
 
 Understand "sleep in [something]" as entering.
 
@@ -63,7 +70,7 @@ At 12:35 PM:
 At 12:40 PM: 
 	if x is 3:
 		say "Suddenly The front end of the space ship is wripped off and you are consumed by a fireless explosion.";
-		end the game in death.
+		end the game in death.[time limit]
 
 The closet door is a locked door.
 The closet door is east of the recesitation chamber and west of the supply locker.
@@ -97,14 +104,14 @@ every turn:
 	 if z > 1:
 		If player is not wearing the spacesuit:
 			say "The lack of air pressure makes you explode.";
-			end the game in death.
+			end the game in death.[kills the player in dangerous zone.]
 Every turn:
 	if z > 1:
 		If player is wearing the spacesuit:
 			Change the description of the recesitation chamber to "In zero gravity, there is no decernable floor or cealing. You are in a cubicaly shaped room, all six of the walls are clean and bright white.  centered on each wall is a square light flush with the walls.  There is a computer and a digital clock built into one of the walls.  The six lights are turned off and the room is now lighted dimly red.";
 			Change the description of the red warning lights to "These are lights to indicate any emergency on the ship.  They are currently on.";
 			Change the description of the square light to "They are flush to the wall and currently off.";
-			Change the description of the corridor to "The walls are all clean and white.  There are three cirular lights built flush with the walls.  There is a panel knocked off of the wall towards the outside of the ship.  It was likely knocked off by an impact of some kind.  The lights are turned off and the room glowes red from the lights in the airlock.";
+			Change the description of the corridor to "The walls are all clean and white.  There are three cirular lights built flush with the walls.  There is a window facing outwards.  There is also a glass case containing a crowbar.  The lights are now off and the room is feintly iluminated with a red glow.";
 			Change the description of the circular light to "These are flush to the wall and off."
 Instead of taking off the spacesuit:
 	If z > 1:
@@ -252,17 +259,17 @@ Instead of entering the cockpit:
 		Now the player is in the cockpit.
 
 The cockpit is a room.
-The description of the cockpit is "This is the cockpit of the ship.  The walls are covered with complicated looking control panels.  There is also a windsheild looking out into space.  There is a cool computer in the center of the room which atracts your attention."
+The description of the cockpit is "This is the cockpit of the ship.  The walls are covered with complicated looking control panels.  There is also a windsheild looking out into space.  There is a electronic book (eBook) in the center of the room which atracts your attention."
 The control panel is scenery.
 The control panel is in the cockpit.
 The description of the control panel is "The walls are coverd with complicated buttons and switched which you cannot comprehend."
 The windsheild is scenery.
 The windsheild is in the cockpit.
 The description of the windsheild is "The windsheild looks out over a beautiful scene of stars."
-[The computer is scenery.
-The description of the computer is "This is a standard computer.  It has a small screen and two buttons.  There is a left arrow button and a right arrow button."
+The eBook is scenery.
+The description of the eBook is "This is a standard eBook.  It has a small screen and two buttons.  There is a left arrow button and a right arrow button."
 The screen is scenery.
-The description of the screen is "This is a blank computer screen."
+The description of the screen is "This is a blank eBook screen."
 The right arrow button is scenery.
 The left arrow button is scenery.
 The description of the right arrow button is "A button shaped like an arrow pointing towards the right."
@@ -270,27 +277,41 @@ The description of the left arrow button is "A button shaled like an arrow point
 Instead of pushing the right arrow button for the first time:
 	increase j by 1;
 	say "The screen turns on."
+Instead of taking the eBook, say "This is teathered to the control panel."
 
-j is a number that varies. [on/off of computer.]
+j is a number that varies. [on/off for computer.]
 j is 1
 
 p is a number that varies. [p is the page number.]
 p is 1.
 
 Every turn:
-	If p is < 1:
-		p is 1.
+	If p < 1:
+		Now p is 1.
 Every turn:
-	If p is > 
-		p is 
+	If p > 3:
+		Now p is 3.
 
 After pushing the right arrow button:
-	Increase p by 1;
-	say "The text on the screen changes."
+	If j is 2:
+		Increase p by 1;
+		say "The text on the screen changes."
 After pushing the left arrow button:
-	Decrease p by 1;
-	say "The text on the screen changes."
+	If j is 2:
+		Decrease p by 1;
+		say "The text on the screen changes."
 
 Every turn:
-	If p is ]
+	If p is 1:
+		If j is 2:
+			change the description of the screen to "Page 1;  Mission log.  Date: October 7, 2014.  Operation 'Species Superiority' has been aproved by the white house.  This afternoon, 2000 spaceships armed with nuclear warheads will be launched at planet Kratos in the Kleptoid solar system.  This planet is belived to support life but before any attempts at human population, the ingigenous species must be eradicated."
+Every turn:
+	If p is 2:
+		If j is 2:
+			change the description of the screen to "Page 2; Public media will report this as a scouting mission to the potential life harboring planet.  Each one of the 2000 space ships will carry a human, male fetus to grow in suspended animation.  These men will have the cognotive abilities to fix most physical problems unfixable by the space ship's AI."
+Every turn:
+	If p is 3:
+		If j is 2:
+			change the description of the screen to "Page 3; expected date of arrival: September 10, 2075.  Nuclear radiation will fade and planet Kratos will be habitable by the year 2175.  At this time the first generations of humans will begin populating the new planet."
+	
 
