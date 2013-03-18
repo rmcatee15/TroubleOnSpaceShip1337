@@ -163,7 +163,8 @@ The glass case is in the corridor.
 The description of the glass case is "This is a glass case containing a crowbar."
 The crowbar is a thing.
 The crowbar is in the corridor.
-instead of taking the crowbar:
+The description of the crowbar is "A heavy red crowbar."
+Instead of taking the crowbar:
 	If y < 2:
 		say "The crowbar is behind thick glass.";
 	otherwise:
@@ -219,6 +220,8 @@ Understand "tape [something]" as taping.
 Understand "tape the [something]" as taping.
 Understand "use the tape on the [something]" as taping.
 Understand "use the electrical tape on the [something]" as taping.
+Understand "use tape on [something]" as taping.
+Understand "use the tape on [something]" as taping.
 Instead of taping the frayed wire:
 	If the player does not carry the electrical tape:
 		say "You have nothing to fix the frayed wire with.";
@@ -237,7 +240,8 @@ After going to the airlock:
 			Move the sleeping pod to the recesitation chamber;
 			Change the description of the corridor to "The walls are all clean and white.  There are three cirular lights built flush with the walls.  There is a window facing outwards.  There is broken a glass case containing a crowbar.";
 			change the description of the glass case to "This glass case is shattered.";
-			increase m by 1.
+			increase m by 1;
+			Change the description of the recesitation chamber to "In zero gravity, there is no discernible floor or ceiling. You are in a cubically shaped room, all six of the walls are clean and bright white.  centered on each wall is a square light flush with the walls.  There is a computer and a digital clock built into one of the walls.  There is a sleeping pod."
 
 Instead of dropping the note:[objects droped in space float away and are removed]
 	If the player is in outer space:

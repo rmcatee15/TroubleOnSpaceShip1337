@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x55f78b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x55a2440" />
+  <activeNode nodeId="node-0xa781a10" />
   <item nodeId="node-0x55f78b0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -22,10 +22,11 @@ You can see a space ship door and a closet door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="80">NO</temporary>
+    <temporary score="206">NO</temporary>
     <children>
       <child nodeId="node-0x5538c90" />
       <child nodeId="node-0x55390f0" />
+      <child nodeId="node-0x5deb10" />
       <child nodeId="node-0x5e698b0" />
       <child nodeId="node-0x55fafb0" />
       <child nodeId="node-0x55fa610" />
@@ -611,7 +612,7 @@ You can see a space ship door and a closet door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="80">YES</temporary>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x55f86f0" />
     </children>
@@ -628,7 +629,7 @@ You can see a closet door, a spacesuit and a note here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="80">YES</temporary>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x55f8a70" />
       <child nodeId="node-0x55f8760" />
@@ -641,8 +642,8 @@ You can see a closet door, a spacesuit and a note here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0xd6983b0" />
     </children>
@@ -654,8 +655,8 @@ You put on the spacesuit.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x5d89e0" />
     </children>
@@ -664,8 +665,8 @@ You put on the spacesuit.
     <command xml:space="preserve">take tape</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x5e44780" />
     </children>
@@ -680,8 +681,8 @@ You can see a closet door and a space ship door here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x5e42950" />
     </children>
@@ -697,8 +698,8 @@ You can see an inner door, an intimidating door, a space ship door and a crowbar
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x5ee79b0" />
     </children>
@@ -710,8 +711,8 @@ You should be careful to operate the airlock doors correctly.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x55d1d0" />
     </children>
@@ -722,8 +723,8 @@ You should be careful to operate the airlock doors correctly.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x5e3ea80" />
     </children>
@@ -739,8 +740,8 @@ You can see an outer door here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x5ea7580" />
     </children>
@@ -751,8 +752,8 @@ You can see an outer door here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x5edbf30" />
     </children>
@@ -763,8 +764,8 @@ You can see an outer door here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x5ee9a30" />
     </children>
@@ -775,8 +776,8 @@ You can see an outer door here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x2b01c0" />
     </children>
@@ -787,8 +788,8 @@ You can see an outer door here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x5f81d0" />
     </children>
@@ -804,8 +805,8 @@ You can see an inner door, an intimidating door, a space ship door and a crowbar
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x5ed6dc0" />
     </children>
@@ -814,8 +815,8 @@ You can see an inner door, an intimidating door, a space ship door and a crowbar
     <command xml:space="preserve">take  crowbar</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x5020810" />
     </children>
@@ -826,8 +827,8 @@ You can see an inner door, an intimidating door, a space ship door and a crowbar
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x5e8cf20" />
     </children>
@@ -838,8 +839,8 @@ You can see an inner door, an intimidating door, a space ship door and a crowbar
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x5e44af0" />
     </children>
@@ -848,8 +849,8 @@ You can see an inner door, an intimidating door, a space ship door and a crowbar
     <command xml:space="preserve">take off space suit</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x513c20" />
     </children>
@@ -863,8 +864,8 @@ You can see an intimidating door here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x5ea45a0" />
     </children>
@@ -875,8 +876,8 @@ You can see an intimidating door here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="104">YES</temporary>
     <children>
       <child nodeId="node-0x55a2440" />
     </children>
@@ -884,14 +885,37 @@ You can see an intimidating door here.
   <item nodeId="node-0x55a2440">
     <command xml:space="preserve">input new destination</command>
     <result xml:space="preserve">You tell the robot to change the ships route to Earth and it responds positively.
-You tell the robot to change the ships route to Kratos and it responds positively.
 
 [Your score has just gone up by one thousand, three hundred and thirty-seven points.]
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="79">YES</temporary>
+    <temporary score="104">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2badd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2badd0">
+    <command xml:space="preserve">input</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="104">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e40fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e40fa0">
+    <command xml:space="preserve">input new destination</command>
+    <result xml:space="preserve">You tell the robot to change the ships route to Kratos and it responds positively.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
   </item>
   <item nodeId="node-0x55f8760">
     <command xml:space="preserve">put on space suit</command>
@@ -3561,6 +3585,1327 @@ You put on the spacesuit.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="57">YES</temporary>
+  </item>
+  <item nodeId="node-0x5deb10">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">You are a thin human in his late teens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ec3fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ec3fb0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">recesitation chamber
+In zero gravity, there is no discernible floor or ceiling. You are in a cubically shaped room, all six of the walls are clean and bright white.  centered on each wall is a square light flush with the walls.  There is a computer and a digital clock built into one of the walls.
+
+You can see a space ship door and a closet door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2ba7a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2ba7a0">
+    <command xml:space="preserve">x computer</command>
+    <result xml:space="preserve">This is not much of a computer, Just one button and a small 4x6 monitor.  It is built into the wall.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5565120" />
+    </children>
+  </item>
+  <item nodeId="node-0x5565120">
+    <command xml:space="preserve">press button</command>
+    <result xml:space="preserve">The monitor starts up.  It displays a map of the ship.  A computerized voice starts to talk.  Hello adventurer, I am space ship 1337.  I have temporarily awoken you from suspended unconsciousness because of external damage to my starboard trajectory adjusting thruster.  -Estimating time before catastrophic consequences.-  Potential danger detected.  Collision will occur at 12:40 pm, November 3, 2525.  The current time is 12:53 pm, November 1, 2525.  Opening accessible rooms.  When you have finished fixing my starboard trajectory adjusting thruster, please return to the sleeping pod.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a5410" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a5410">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">recesitation chamber
+In zero gravity, there is no discernible floor or ceiling. You are in a cubically shaped room, all six of the walls are clean and bright white.  centered on each wall is a square light flush with the walls.  There is a computer and a digital clock built into one of the walls.
+
+You can see a space ship door and a closet door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e64f40" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e64f40">
+    <command xml:space="preserve">x clock</command>
+    <result xml:space="preserve">It is 12:55 pm, November 1, 2525.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e8aa30" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e8aa30">
+    <command xml:space="preserve">x light</command>
+    <result xml:space="preserve">Which do you mean, the square light or the circular light?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e3e510" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e3e510">
+    <command xml:space="preserve">square</command>
+    <result xml:space="preserve">They are flush to the wall and very bright.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x54c5d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x54c5d0">
+    <command xml:space="preserve">x circular</command>
+    <result xml:space="preserve">These are flush to the wall and on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e8bf30" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e8bf30">
+    <command xml:space="preserve">x closet</command>
+    <result xml:space="preserve">This is a standard sized door labeled supply locker.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9f030" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9f030">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">You open the closet door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e934e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e934e0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">recesitation chamber
+In zero gravity, there is no discernible floor or ceiling. You are in a cubically shaped room, all six of the walls are clean and bright white.  centered on each wall is a square light flush with the walls.  There is a computer and a digital clock built into one of the walls.
+
+You can see a space ship door and a closet door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5f9510" />
+    </children>
+  </item>
+  <item nodeId="node-0x5f9510">
+    <command xml:space="preserve">x closet</command>
+    <result xml:space="preserve">This is a standard sized door labeled supply locker.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5edb0f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5edb0f0">
+    <command xml:space="preserve">go closet</command>
+    <result xml:space="preserve">
+supply locker
+You are in a small cubical room.  All of the walls are clean and white.  There is a dim light bordering the only door..
+
+You can see a closet door, a spacesuit and a note here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e770a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e770a0">
+    <command xml:space="preserve">take spacesuit</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x558a3d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x558a3d0">
+    <command xml:space="preserve">x note</command>
+    <result xml:space="preserve">This is a hand written note attached to the wall with a piece of electrical tape.  It reads please do not urinate in the suit.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e36ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e36ac0">
+    <command xml:space="preserve">take note</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa749b90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa749b90">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a note
+  a spacesuit
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5eea4a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5eea4a0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">supply locker
+You are in a small cubical room.  All of the walls are clean and white.  There is a dim light bordering the only door..
+
+You can see an electrical tape and a closet door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ed4160" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ed4160">
+    <command xml:space="preserve">x tape</command>
+    <result xml:space="preserve">A piece of electrical tape.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2fa790" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2fa790">
+    <command xml:space="preserve">take tape</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e639a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e639a0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">supply locker
+You are in a small cubical room.  All of the walls are clean and white.  There is a dim light bordering the only door..
+
+You can see a closet door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e53a10" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e53a10">
+    <command xml:space="preserve">go closet</command>
+    <result xml:space="preserve">
+recesitation chamber
+In zero gravity, there is no discernible floor or ceiling. You are in a cubically shaped room, all six of the walls are clean and bright white.  centered on each wall is a square light flush with the walls.  There is a computer and a digital clock built into one of the walls.
+
+You can see a closet door and a space ship door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5027d10" />
+    </children>
+  </item>
+  <item nodeId="node-0x5027d10">
+    <command xml:space="preserve">go spaceship door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4aab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4aab0">
+    <command xml:space="preserve">open space ship door</command>
+    <result xml:space="preserve">You open the space ship door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ea55e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea55e0">
+    <command xml:space="preserve">go space ship door</command>
+    <result xml:space="preserve">
+corridor
+The walls are all clean and white.  There are three cirular lights built flush with the walls.  There is a window facing outwards.  There is also a glass case containing a crowbar.
+
+You can see an inner door, an intimidating door, a space ship door and a crowbar here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc5ec90" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc5ec90">
+    <command xml:space="preserve">x window</command>
+    <result xml:space="preserve">The circular window looks out onto a beautiful scene of stars.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e923b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e923b0">
+    <command xml:space="preserve">x cube</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x567140" />
+    </children>
+  </item>
+  <item nodeId="node-0x567140">
+    <command xml:space="preserve">x crowbar</command>
+    <result xml:space="preserve">You see nothing special about the crowbar.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc5ad90" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc5ad90">
+    <command xml:space="preserve">take crowbar</command>
+    <result xml:space="preserve">The crowbar is behind thick glass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5eb3ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5eb3ad0">
+    <command xml:space="preserve">break glass</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc5a6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc5a6f0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  an electrical tape
+  a note
+  a spacesuit
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5eb2c50" />
+    </children>
+  </item>
+  <item nodeId="node-0x5eb2c50">
+    <command xml:space="preserve">x inner door</command>
+    <result xml:space="preserve">You see nothing special about the inner door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa75c2b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa75c2b0">
+    <command xml:space="preserve">open inner door</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e91720" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e91720">
+    <command xml:space="preserve">go inner door</command>
+    <result xml:space="preserve">You should be careful to operate the airlock doors correctly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5eac1d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5eac1d0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">airlock
+This is an airlock that leads to outerspace.  There are red warning lights lining both doors.
+
+You can see an outer door and an inner door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5eb1060" />
+    </children>
+  </item>
+  <item nodeId="node-0x5eb1060">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the outer door)
+The lights dim and red lights begin flashing.  A robot voice begins blaring.  Warning, atmosphere dangerously uninhabitable!
+
+outer space
+You are surrounded by a beautiful scene of starts.  The thrusters of the ship are currently off.  They were likely shut down in order to delay the imminent collision.  This makes it possible for you to hold on to the side of the ship and not float off into deep space, however you are still to afraid to traverse the outside of the ship.  From the outside, the space ship is covered in tiled pieces of metal.  You can see a section where there is a huge dent in the ship.  It is within arms reach.
+
+You can see an outer door here.
+
+The lack of air pressure makes you explode.
+
+
+
+    *** You have died ***
+
+
+In that game you scored 0 out of a possible 1337, in 34 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5eae450" />
+    </children>
+  </item>
+  <item nodeId="node-0x5eae450">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">airlock
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa74a8d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa74a8d0">
+    <command xml:space="preserve">put on space suit</command>
+    <result xml:space="preserve">You put on the spacesuit.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa752460" />
+    </children>
+  </item>
+  <item nodeId="node-0xa752460">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">airlock
+This is an airlock that leads to outerspace.  There are red warning lights lining both doors.
+
+You can see an outer door and an inner door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e621a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e621a0">
+    <command xml:space="preserve">close inner door</command>
+    <result xml:space="preserve">You close the inner door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e65cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e65cf0">
+    <command xml:space="preserve">open outer door</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4c0d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4c0d0">
+    <command xml:space="preserve">go outer door</command>
+    <result xml:space="preserve">
+outer space
+You are surrounded by a beautiful scene of starts.  The thrusters of the ship are currently off.  They were likely shut down in order to delay the imminent collision.  This makes it possible for you to hold on to the side of the ship and not float off into deep space, however you are still to afraid to traverse the outside of the ship.  From the outside, the space ship is covered in tiled pieces of metal.  You can see a section where there is a huge dent in the ship.  It is within arms reach.
+
+You can see an outer door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa235330" />
+    </children>
+  </item>
+  <item nodeId="node-0xa235330">
+    <command xml:space="preserve">x dent</command>
+    <result xml:space="preserve">There are several bent panels but the piece that was hit directly is useless and ready to fall off.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e73090" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e73090">
+    <command xml:space="preserve">take piece</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e89ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e89ce0">
+    <command xml:space="preserve">take panel</command>
+    <result xml:space="preserve">You pry away the bent panel revealing a hole and some frayed wires.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e5c960" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e5c960">
+    <command xml:space="preserve">x hole</command>
+    <result xml:space="preserve">This is a square shaped hole revealing some frayed wires.
+
+In the hole is a frayed wire.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5eb4550" />
+    </children>
+  </item>
+  <item nodeId="node-0x5eb4550">
+    <command xml:space="preserve">x wires</command>
+    <result xml:space="preserve">This is some exposed wire which is disconnected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc81460" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc81460">
+    <command xml:space="preserve">put wires together</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ea0b70" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea0b70">
+    <command xml:space="preserve">connect wires</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa22ace0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa22ace0">
+    <command xml:space="preserve">use tape on wires</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc88c00" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc88c00">
+    <command xml:space="preserve">tape wires</command>
+    <result xml:space="preserve">You wrap the electrical tape around the frayed wire.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa222e70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa222e70">
+    <command xml:space="preserve">x hole</command>
+    <result xml:space="preserve">This is a square shaped hole revealing some frayed wires.
+
+In the hole is a frayed wire.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e75490" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e75490">
+    <command xml:space="preserve">x wires</command>
+    <result xml:space="preserve">This is a piece of wire which you fixed with some tape.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9ed50" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9ed50">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a bent panel
+  a note
+  a spacesuit (being worn)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa200d30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa200d30">
+    <command xml:space="preserve">put panel on hole</command>
+    <result xml:space="preserve">Putting things on the hole would achieve nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e662e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e662e0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">outer space
+You are surrounded by a beautiful scene of starts.  The thrusters of the ship are currently off.  They were likely shut down in order to delay the imminent collision.  This makes it possible for you to hold on to the side of the ship and not float off into deep space, however you are still to afraid to traverse the outside of the ship.  From the outside, the space ship is covered in tiled pieces of metal.  You can see a section where there is a huge hole in the ship with a frayed wire sticking out.  It is within arms reach.
+
+You can see an outer door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2dfa60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2dfa60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">The space ship rumbles as the engines start and the space ship begins moving.  You hear the tinkle of broken glass coming from inside of the corridor.  The robotic voice starts to speak again.  Thank you adventurer. Please return to your suspended unconsciousness containment pod.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5edf810" />
+    </children>
+  </item>
+  <item nodeId="node-0x5edf810">
+    <command xml:space="preserve">close outer door</command>
+    <result xml:space="preserve">That&apos;s already closed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e35e10" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e35e10">
+    <command xml:space="preserve">open inner door</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa21ae00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa21ae00">
+    <command xml:space="preserve">go inner door</command>
+    <result xml:space="preserve">
+corridor
+The walls are all clean and white.  There are three cirular lights built flush with the walls.  There is a window facing outwards.  There is broken a glass case containing a crowbar.
+
+You can see an inner door, an intimidating door, a space ship door and a crowbar here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc6c820" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc6c820">
+    <command xml:space="preserve">take crowbar</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x55949e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x55949e0">
+    <command xml:space="preserve">go spaceship door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e89d50" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e89d50">
+    <command xml:space="preserve">go space ship door</command>
+    <result xml:space="preserve">
+recesitation chamber
+In zero gravity, there is no discernible floor or ceiling. You are in a cubically shaped room, all six of the walls are clean and bright white.  centered on each wall is a square light flush with the walls.  There is a computer and a digital clock built into one of the walls.
+
+You can see a space ship door and a closet door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x500520" />
+    </children>
+  </item>
+  <item nodeId="node-0x500520">
+    <command xml:space="preserve">x computer</command>
+    <result xml:space="preserve">This is not much of a computer, Just one button and a small 4x6 monitor.  It is built into the wall.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e7f7d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e7f7d0">
+    <command xml:space="preserve">press button</command>
+    <result xml:space="preserve">Nothing happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc3ef60" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc3ef60">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+corridor
+The walls are all clean and white.  There are three cirular lights built flush with the walls.  There is a window facing outwards.  There is broken a glass case containing a crowbar.
+
+You can see a space ship door, an inner door and an intimidating door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e77eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e77eb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">you pry open the door with the crowbar but only open it enough to barely squeeze through.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2f34a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2f34a0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">corridor
+The walls are all clean and white.  There are three cirular lights built flush with the walls.  There is a window facing outwards.  There is broken a glass case containing a crowbar.
+
+You can see a space ship door, an inner door and an intimidating door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e85a20" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e85a20">
+    <command xml:space="preserve">go indimidating</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e92ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e92ac0">
+    <command xml:space="preserve">go intimidating</command>
+    <result xml:space="preserve">You cannot fit through the gap with your space suit on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa754510" />
+    </children>
+  </item>
+  <item nodeId="node-0xa754510">
+    <command xml:space="preserve">take off space suit</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xdcab000" />
+    </children>
+  </item>
+  <item nodeId="node-0xdcab000">
+    <command xml:space="preserve">go intimidating door</command>
+    <result xml:space="preserve">cockpit
+This is the cockpit of the ship.  The walls are covered with complicated looking control panels.  There is also a windsheild looking out into space.  There is a electronic book (eBook) in the center of the room which attracts your attention. There is a robot standing in the corner of the room.
+
+You can see an intimidating door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xdcab1f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdcab1f0">
+    <command xml:space="preserve">x book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ee73c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ee73c0">
+    <command xml:space="preserve">x ebook</command>
+    <result xml:space="preserve">This is a standard eBook.  It has a small screen and two buttons.  There is a left arrow button and a right arrow button.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5eb6150" />
+    </children>
+  </item>
+  <item nodeId="node-0x5eb6150">
+    <command xml:space="preserve">press button</command>
+    <result xml:space="preserve">Which do you mean, the right arrow button or the left arrow button?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e68de0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e68de0">
+    <command xml:space="preserve">left</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e93f10" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e93f10">
+    <command xml:space="preserve">x ebook</command>
+    <result xml:space="preserve">This is a standard eBook.  It has a small screen and two buttons.  There is a left arrow button and a right arrow button.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa208000" />
+    </children>
+  </item>
+  <item nodeId="node-0xa208000">
+    <command xml:space="preserve">press right button</command>
+    <result xml:space="preserve">The screen turns on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa780210" />
+    </children>
+  </item>
+  <item nodeId="node-0xa780210">
+    <command xml:space="preserve">x screen</command>
+    <result xml:space="preserve">Page 1;  Mission log.  Date: October 7, 2014.  Operation &quot;Species Superiority&quot; has been approved by the white house.  This afternoon, 2000 spaceships armed with nuclear warheads will be launched at planet Kratos in the Kleptoid solar system.  This planet is believed to support life but before any attempts at human population, the indigenous species must be eradicated.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x558ee30" />
+    </children>
+  </item>
+  <item nodeId="node-0x558ee30">
+    <command xml:space="preserve">press right</command>
+    <result xml:space="preserve">The text on the screen changes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e625d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e625d0">
+    <command xml:space="preserve">x screen</command>
+    <result xml:space="preserve">Page 2; Public media will report this as a scouting mission to the potential life harboring planet.  Each one of the 2000 space ships will carry a human, male fetus to grow in suspended animation.  These men will have the cognitive abilities to fix most physical problems unfixable by the space ship&apos;s AI.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xdca0ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdca0ff0">
+    <command xml:space="preserve">press right</command>
+    <result xml:space="preserve">The text on the screen changes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e99440" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e99440">
+    <command xml:space="preserve">x screen</command>
+    <result xml:space="preserve">Page 3; expected date of arrival: September 10, 2075.  Nuclear radiation will fade and planet Kratos will be habitable by the year 2175.  At this time the first generations of humans will begin populating the new planet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ef24b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ef24b0">
+    <command xml:space="preserve">press right</command>
+    <result xml:space="preserve">The text on the screen changes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e840c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e840c0">
+    <command xml:space="preserve">x screen</command>
+    <result xml:space="preserve">Page 3; expected date of arrival: September 10, 2075.  Nuclear radiation will fade and planet Kratos will be habitable by the year 2175.  At this time the first generations of humans will begin populating the new planet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e612c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e612c0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">cockpit
+This is the cockpit of the ship.  The walls are covered with complicated looking control panels.  There is also a windsheild looking out into space.  There is a electronic book (eBook) in the center of the room which attracts your attention. There is a robot standing in the corner of the room.
+
+You can see an intimidating door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ea4cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea4cd0">
+    <command xml:space="preserve">x windsheild</command>
+    <result xml:space="preserve">The windsheild looks out over a beautiful scene of stars.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2d8af0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2d8af0">
+    <command xml:space="preserve">x robot</command>
+    <result xml:space="preserve">this is a stationary robot designed with human features.  This model has no buttons on it and instead responds to voice commands.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa784220" />
+    </children>
+  </item>
+  <item nodeId="node-0xa784220">
+    <command xml:space="preserve">talk to robot</command>
+    <result xml:space="preserve">Hello human.  I am auto pilot number 1337.  Current destination set to planet kratos.  you may now input new destination.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ee4380" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ee4380">
+    <command xml:space="preserve">earth</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e38c50" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e38c50">
+    <command xml:space="preserve">go earth</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e5c580" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e5c580">
+    <command xml:space="preserve">input earth</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e4a8d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e4a8d0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">cockpit
+This is the cockpit of the ship.  The walls are covered with complicated looking control panels.  There is also a windsheild looking out into space.  There is a electronic book (eBook) in the center of the room which attracts your attention. There is a robot standing in the corner of the room.
+
+You can see an intimidating door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa78c9a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa78c9a0">
+    <command xml:space="preserve">input new destination</command>
+    <result xml:space="preserve">You tell the robot to change the ships route to Earth and it responds positively.
+
+[Your score has just gone up by one thousand, three hundred and thirty-seven points.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5eab620" />
+    </children>
+  </item>
+  <item nodeId="node-0x5eab620">
+    <command xml:space="preserve">talk to robot</command>
+    <result xml:space="preserve">Hello human.  I am auto pilot number 1337.  Current destination set to planet Earth.  you may now input new destination.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa77e9a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa77e9a0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">cockpit
+This is the cockpit of the ship.  The walls are covered with complicated looking control panels.  There is also a windsheild looking out into space.  There is a electronic book (eBook) in the center of the room which attracts your attention. There is a robot standing in the corner of the room.
+
+You can see an intimidating door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa77c190" />
+    </children>
+  </item>
+  <item nodeId="node-0xa77c190">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+corridor
+The walls are all clean and white.  There are three cirular lights built flush with the walls.  There is a window facing outwards.  There is broken a glass case containing a crowbar.
+
+You can see an intimidating door, a space ship door and an inner door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa7a28e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa7a28e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+recesitation chamber
+In zero gravity, there is no discernible floor or ceiling. You are in a cubically shaped room, all six of the walls are clean and bright white.  centered on each wall is a square light flush with the walls.  There is a computer and a digital clock built into one of the walls.
+
+You can see a space ship door and a closet door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5eb42e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5eb42e0">
+    <command xml:space="preserve">x pod</command>
+    <result xml:space="preserve">This is the egg shaped pod which you climbed out of and is no longer hidden in the floor.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e8c130" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e8c130">
+    <command xml:space="preserve">climb into pod</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa781a10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa781a10">
+    <command xml:space="preserve">go pod</command>
+    <result xml:space="preserve">You climb in and drift off to sleep.
+
+
+
+    *** You have won ***
+
+
+In that game you scored 1337 out of a possible 1337, in 85 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="205">YES</temporary>
   </item>
   <item nodeId="node-0x55390f0">
     <command xml:space="preserve">press button</command>
