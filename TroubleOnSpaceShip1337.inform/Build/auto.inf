@@ -12043,20 +12043,24 @@ self = noun;
          ! [4: increase score by 1337]
           score = score + 1337; 
          ! phrase 5
-         ! [5: end if]
-         }
+         ! [5: otherwise]
+         } else {
 
-      ! phrase 6
-      ! [6: if d > 1 begin]
-       if ((((Global_Vars-->15) > 1)))  {
-         ! phrase 7
-         ! [7: say ~You tell the robot to change the ships route to Kratos and it responds positively.~]
-         say__p=1;ParaContent();  print (PrintText) SC_84;  new_line; .L_Say31; .L_SayX31;
-         ! phrase 8
-         ! [8: decrease d by 1]
-          (Global_Vars-->15) = (Global_Vars-->15) - 1; 
-         ! phrase 9
-         ! [9: end if]
+         ! phrase 6
+         ! [6: if d > 1 begin]
+          if ((((Global_Vars-->15) > 1)))  {
+            ! phrase 7
+            ! [7: say ~You tell the robot to change the ships route to Kratos and it responds positively.~]
+            say__p=1;ParaContent();  print (PrintText) SC_84;  new_line; .L_Say31; .L_SayX31;
+            ! phrase 8
+            ! [8: decrease d by 1]
+             (Global_Vars-->15) = (Global_Vars-->15) - 1; 
+            ! phrase 9
+            ! [9: end if]
+            }
+
+         ! phrase 10
+         ! [10: end if]
          }
 
       RulebookFails(); rtrue;

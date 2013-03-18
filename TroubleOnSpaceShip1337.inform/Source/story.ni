@@ -350,6 +350,7 @@ Instead of inputing:
 		say "You tell the robot to change the ships route to Earth and it responds positively.";
 		increase d by 1;
 		increase score by 1337;
-	If d > 1:
-		say "You tell the robot to change the ships route to Kratos and it responds positively.";
-		decrease d by 1;
+	otherwise:
+		If d > 1:
+			say "You tell the robot to change the ships route to Kratos and it responds positively.";
+			decrease d by 1;
