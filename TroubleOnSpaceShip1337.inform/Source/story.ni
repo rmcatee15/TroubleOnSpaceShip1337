@@ -78,9 +78,8 @@ The description of the closet door is "This is a standard sized door labeled sup
 The space ship door is a locked door.
 The space ship door is north of the recesitation chamber and south of the corridor.
 The description of the space ship door is "This is a big metal door, painted the same color as all of the walls."
-The intimidating door is a door.
+The intimidating door is a closed door.
 The intimidating door is north of the corridor and south of the cockpit.
-The matching key of the intimidating door is the key card.
 The description of the intimidating door is "This is a big metal door with the words 'OFF LIMITS' painted in red."
 
 z is a number that varies.[z is the atmosphere in the ship]
@@ -113,24 +112,19 @@ Every turn:
 			Change the description of the square light to "They are flush to the wall and currently off.";
 			Change the description of the corridor to "The walls are all clean and white.  There are three circular lights built flush with the walls.  There is a window facing outwards.  There is also a glass case containing a crowbar.  The lights are now off and the room is faintly illuminated with a red glow.";
 			Change the description of the circular light to "These are flush to the wall and off."
-Instead of taking off the spacesuit:
+			
+after of taking off the spacesuit:
 	If z > 1:
 		say "The lack of air pressure makes you explode.";
-		end the game in death.
-
+		end the game in death;
 after opening the outer door:
 	if player is not wearing the spacesuit:
 		say "The lack of air pressure makes you explode.";
 		end the game in death.
-Instead of taking off the spacesuit:
+after of taking off the spacesuit:
 	if player is in outer space:
 		say "The lack of air pressure makes you explode.";
-		end the game in death.
-Instead of taking off the spacesuit:
-	if z > 1:
-		say "The lack of air pressure makes you explode.";
-		end the game in death.
-
+		end the game in death;
 
 The supply locker is a room.
 The description of the supply locker is "You are in a small cubical room.  All of the walls are clean and white.  There is a dim light bordering the only door.."
@@ -164,21 +158,25 @@ Instead of breaking the circular light, say "That is not an appropriate thing to
 The window is scenery.
 The window is in the corridor.
 The description of the window is "The circular window looks out onto a beautiful scene of stars."
-The glass case is a thing.
-The glass case is a locked container.
+The glass case is scenery.
 The glass case is in the corridor.
 The description of the glass case is "This is a glass case containing a crowbar."
 The crowbar is a thing.
-The crowbar is in the glass case.
+The crowbar is in the corridor.
+instead of taking the crowbar:
+	If y < 2:
+		say "The crowbar is behind thick glass.";
+	otherwise:
+		move the crowbar to the player.
 Instead of breaking the glass case:
-	say "You are to weak to break the glass without a tool.  You could sure use that crowbar."
+	say "You are too weak to break the glass without a tool.  You could sure use that crowbar."
 
 The airlock is a room.
 The description of the airlock is "This is an airlock that leads to outerspace.  There are red warning lights lining both doors."
 The red warning lights is scenery.
 The red warning lights is in the airlock.
 The description of the red warning lights is "These are lights to indicate any emergency on the ship.  They are currently off."
-After entering the airlock for the first time, say "You should be careful to operate the airlock doors correctly."
+After going to the airlock for the first time, say "You should be careful to operate the airlock doors correctly."
 
 outer space is a room.
 The description of outer space is "You are surrounded by a beautiful scene of starts.  The thrusters of the ship are currently off.  They were likely shut down in order to delay the imminent collision.  This makes it possible for you to hold on to the side of the ship and not float off into deep space, however you are still to afraid to traverse the outside of the ship.  From the outside, the space ship is covered in tiled pieces of metal.  You can see a section where there is a huge dent in the ship.  It is within arms reach."
@@ -190,6 +188,7 @@ The dent is scenery.
 The dent is in outer space.
 The description of the dent is "There are several bent panels but the piece that was hit directly is useless and ready to fall off."
 The bent panel is a thing.
+Understand "plate" as the bent panel.
 The description of the bent panel is "This is a bent and broken panel."
 After examining the dent for the first time:
 	Move the bent panel to outer space;
@@ -209,6 +208,12 @@ The description of the frayed wire is "This is some exposed wire which is discon
 Understand "wires" and "frayed wires" as the frayed wire.
 Instead of taking the frayed wire, say "You cannot take that."
 
+y is a number that varies.[y is the completion of the ship]
+y is 1.
+
+m is a number that varies.[m is number of times entering the airlock after fixing ship]
+m is 1.
+
 Taping is an action applying to one touchable thing.
 Understand "tape [something]" as taping.
 Understand "tape the [something]" as taping.
@@ -223,14 +228,18 @@ Instead of taping the frayed wire:
 		remove the electrical tape from play;
 		Change the description of the frayed wire to "This is a piece of wire which you fixed with some tape."
 
-After entering the airlock when y is 2 for the first time:
-	say "The space ship rumbles as the engines start and the space ship begins moving.  You hear the tinkle of broken glass coming from inside of the corridor.  The robotic voice starts to speak again.  Thank you adventurer. Please return to your suspended unconsciousness containment pod.";
-	Now the outer door is closed;
-	Now the outer door is locked;
-	Now the glass case is not locked;
-	Move the sleeping pod to the recesitation chamber.
+After going to the airlock:
+	If y > 1:
+		If m < 2:
+			say "The space ship rumbles as the engines start and the space ship begins moving.  You hear the tinkle of broken glass coming from inside of the corridor.  The robotic voice starts to speak again.  Thank you adventurer. Please return to your suspended unconsciousness containment pod.";
+			Now the outer door is closed;
+			Now the outer door is locked;
+			Move the sleeping pod to the recesitation chamber;
+			Change the description of the corridor to "The walls are all clean and white.  There are three cirular lights built flush with the walls.  There is a window facing outwards.  There is broken a glass case containing a crowbar.";
+			change the description of the glass case to "This glass case is shattered.";
+			increase m by 1.
 
-Instead of dropping the note:
+Instead of dropping the note:[objects droped in space float away and are removed]
 	If the player is in outer space:
 		say " The note drifts off into space";
 		remove the note from play.
@@ -242,24 +251,22 @@ Instead of dropping the bent panel:
 	If the player is in outer space:
 		say "The bent panel drifts off into space";
 		remove the bent panel from play.
-		
-y is a number that varies.[y is the completion of the ship]
-y is 1.
 
-Instead of opening the intimidating door:
-	If the player does not carry the crowbar:
-		say "The door is shut tightly.";
+Instead of going to the cockpit:
+	If the intimidating door is open:
+		If the player is wearing the spacesuit:
+			say "You cannot fit through the gap with your space suit on.";
+		Otherwise:
+			Now the player is in the cockpit;
 	Otherwise:
-		say "you pry open the door with the crowbar but only open it enough to barely squeeze through.";
-		Now the intimidating door is open.
-Instead of entering the cockpit:
-	If the player is wearing the spacesuit:
-		say "You cannot fit through the gap with your space suit on.";
-	Otherwise:
-		Now the player is in the cockpit.
+		If the player does not carry the crowbar:
+			say "The door is shut tightly.";
+		Otherwise:
+			say "you pry open the door with the crowbar but only open it enough to barely squeeze through.";
+			Now the intimidating door is open.
 
 The cockpit is a room.
-The description of the cockpit is "This is the cockpit of the ship.  The walls are covered with complicated looking control panels.  There is also a windsheild looking out into space.  There is a electronic book (eBook) in the center of the room which attracts your attention."
+The description of the cockpit is "This is the cockpit of the ship.  The walls are covered with complicated looking control panels.  There is also a windsheild looking out into space.  There is a electronic book (eBook) in the center of the room which attracts your attention. There is a robot standing in the corner of the room."
 The control panel is scenery.
 The control panel is in the cockpit.
 The description of the control panel is "The walls are covered with complicated buttons and switched which you cannot comprehend."
@@ -267,17 +274,24 @@ The windsheild is scenery.
 The windsheild is in the cockpit.
 The description of the windsheild is "The windsheild looks out over a beautiful scene of stars."
 The eBook is scenery.
+The eBook is in the cockpit.
 The description of the eBook is "This is a standard eBook.  It has a small screen and two buttons.  There is a left arrow button and a right arrow button."
 The screen is scenery.
+the screen is in the cockpit.
 The description of the screen is "This is a blank eBook screen."
 The right arrow button is scenery.
+The right arrow is in the cockpit.
 The left arrow button is scenery.
+The left arrow is in the cockpit.
 The description of the right arrow button is "A button shaped like an arrow pointing towards the right."
 The description of the left arrow button is "A button shaped like an arrow pointing towards the left."
 Instead of pushing the right arrow button for the first time:
 	increase j by 1;
 	say "The screen turns on."
 Instead of taking the eBook, say "This is tethered to the control panel."
+The robot is scenery.
+The robot is in the cockpit.
+The description of the robot is "this is a stationary robot designed with human features.  This model has no buttons on it and instead responds to voice commands."
 
 j is a number that varies. [on/off for computer.]
 j is 1
@@ -292,11 +306,11 @@ Every turn:
 	If p > 3:
 		Now p is 3.
 
-After pushing the right arrow button:
+Instead of pushing the right arrow button:
 	If j is 2:
 		Increase p by 1;
 		say "The text on the screen changes."
-After pushing the left arrow button:
+Instead of pushing the left arrow button:
 	If j is 2:
 		Decrease p by 1;
 		say "The text on the screen changes."
@@ -312,6 +326,30 @@ Every turn:
 Every turn:
 	If p is 3:
 		If j is 2:
-			change the description of the screen to "Page 3; expected date of arrival: September 10, 2075.  Nuclear radiation will fade and planet Kratos will be habitable by the year 2175.  At this time the first generations of humans will begin populating the new planet."
+			change the description of the screen to "Page 3; expected date of arrival: September 10, 2075.  Nuclear radiation will fade and planet Kratos will be habitable by the year 2175.  At this time the first generations of humans will begin populating the new planet.".
 	
+talking is an action applying to one touchable thing.
+understand "talk" as talking.
+Understand "Talk to [something]" as talking.
+d is a number that varies.
+d is 1.
 
+instead of talking the robot:
+	If d < 2:
+		say "Hello human.  I am auto pilot number 1337.  Current destination set to planet kratos.  you may now input new destination.";
+	Otherwise:
+		say "Hello human.  I am auto pilot number 1337.  Current destination set to planet Earth.  you may now input new destination."
+
+inputing is an action applying to nothing.
+understand "input destination" as inputing.
+understand "change destination" as inputing.
+understand "input new destination" as inputing.
+
+Instead of inputing:
+	If d < 2:
+		say "You tell the robot to change the ships route to Earth and it responds positively.";
+		increase d by 1;
+		increase score by 1337;
+	If d > 1:
+		say "You tell the robot to change the ships route to Kratos and it responds positively.";
+		decrease d by 1;
